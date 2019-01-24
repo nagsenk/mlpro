@@ -1,0 +1,27 @@
+
+{%block content %}
+
+
+<a href="jh">Get Results</a>
+
+<h2>Upload Image</h2>
+<form method="post" enctype="multipart/form-data",action="signup/jh" method="get">
+   {% csrf_token %}
+
+	<div class="reg-fom-btm mt-5">
+		<div class="fields">
+		        <div class="col-md-6 contact_left_grid">
+	<div class="contact-fields-w3ls">
+	<input type="text" name="name" placeholder="name" required="">
+	</div>
+
+	<div class="contact-fields-w3ls">
+	<input type="text" name="educourse" placeholder="aaa" required="">
+	</div>
+	</div>
+							
+   <input type="file" name="document">
+   <button type="submit"> Uploadfile </button>
+</form>
+
+{%endblock %}
