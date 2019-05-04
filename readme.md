@@ -1,7 +1,7 @@
 Cattle Identification
 ==============
 
-A reusable Django app for Cattle Identification.
+A Django project for Cattle Identification.
 
 Installation
 ------------
